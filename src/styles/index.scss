@@ -1,13 +1,49 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+.stick{
+    background-color: black;
+    width: 10px;
+    height: 70px;
+    margin-left: 676px;
+}
+.container {
+    background-color: black;
+    width: 110px;
+    padding: 30px;
+    margin-left: 20;
+   // margin-top: 20px;
+    border-radius: 25px;
+}
+
+.light {
+  height: 50px;
+  width: 50px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: auto;
+}
+.red {
+    background-color: red;
+
+} 
+.yellow {
+    background-color: yellow;
+} 
+.green {
+    background-color: green;
+} 
+
+.red-selected {
+    background-color: red;
+    box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
+} 
+.yellow-selected {
+    background-color: yellow;
+    box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
+} 
+.green-selected {
+    background-color: green;
+    box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
+} 
